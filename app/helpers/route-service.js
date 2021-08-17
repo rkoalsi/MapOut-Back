@@ -29,7 +29,6 @@ const declareApiRoutes = (routes = []) => {
           'Controller exports should be of type Function  / Array of functions'
         );
       }
-
       return acc;
     }, []);
     router[method](pathPattern, ...loadedControllers);

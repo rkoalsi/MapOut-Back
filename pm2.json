@@ -1,0 +1,9 @@
+{
+  "name": "mapout-api",
+  "script": ".",
+  "instances": "max",
+  "exec_mode": "cluster",
+  "env": {
+    "NODE_ENV": "production"
+  }
+}

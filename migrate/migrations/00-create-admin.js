@@ -1,8 +1,8 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 const inquirer = require('inquirer');
 
-const User = require('~models/User');
-const Admin = require('~models/Admin');
+const User = require('../../app/models/User');
+const Admin = require('../../app/models/Admin');
 
 const up = async () => {
   const questions = [

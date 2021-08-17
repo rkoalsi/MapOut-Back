@@ -6,6 +6,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon .",
+    "create:admin": "yarn migrate up-all 00-create-admin.js",
+    "down:admin": "yarn migrate down-all 00-create-admin.js",
     "migrate": "node ./migrate/index.js"
   },
   "dependencies": {

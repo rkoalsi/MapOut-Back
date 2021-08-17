@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const { AuthenticationError, ExtendedError } = require('~helpers/extended-errors');
+const { AuthenticationError, ExtendedError } = require('./extended-errors');
 
 function verifyJWT(token, secret) {
   return new Promise((resolve, reject) => {
